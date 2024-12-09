@@ -1,0 +1,77 @@
+/* Appliquer l'image en arrière-plan à toute la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/venus.jpg') no-repeat center center fixed;
+    background-size: cover; /* Assure que l'image couvre toute la page */
+    color: white; /* Texte en blanc pour contraster avec l'arrière-plan */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond sombre pour l'en-tête */
+    color: #fff;
+}
+
+/* Section contenant le texte */
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Fond légèrement sombre pour contraster avec le texte */
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Formulaire */
+form {
+    background-color: rgba(0, 0, 0, 0.7); /* Fond sombre et transparent */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}
+
+input[type="submit"] {
+    background-color: #D4A017; /* Jaune moutarde */
+    color: white; /* Couleur du texte */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b58810; /* Jaune moutarde plus foncé au survol */
+}

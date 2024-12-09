@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>الكوكب الزهرة</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers votre fichier CSS -->
+</head>
+<body>
+    <header>
+        <h1>الكوكب الزهرة</h1>
+    </header>
+    <main>
+        <!-- Section avec l'arrière-plan de l'image -->
+        <section>
+            <img src="images/venus.jpg" alt="Venus">
+            <div>
+                <h2>معلومات عن الكوكب</h2>
+                <p>الزهرة هو ثاني الكواكب قرباً إلى الشمس ويُعرف بأنه الكوكب الأكثر حرارة في النظام الشمسي.</p>
+        </section>
+
+        <section>
+            <h2>خصائص الكوكب</h2>
+            <table border="1">
+                <tr>
+                    <th>الخاصية</th>
+                    <th>القيمة</th>
+                </tr>
+                <tr>
+                    <td>المسافة عن الشمس</td>
+                    <td>108.2 مليون كم</td>
+                </tr>
+                <tr>
+                    <td>مدة الدورة حول الشمس</td>
+                    <td>225 يومًا</td>
+                </tr>
+                <tr>
+                    <td>درجة الحرارة</td>
+                    <td>465 درجة مئوية</td>
+                </tr>
+            </table>
+        </section>
+        
+       <section>
+    <h2>شاركنا رأيك</h2>
+    <form action="/submit" method="POST">
+        <!-- Champ pour le nom -->
+        <p>اسمك:</p>
+        <input type="text" name="name" placeholder="اكتب اسمك" required>
+
+        <!-- Champ pour l'email -->
+        <p>البريد الإلكتروني:</p>
+        <input type="email" name="email" placeholder="اكتب بريدك الإلكتروني" required>
+
+        <!-- Champ pour l'avis -->
+        <p>رأيك:</p>
+        <textarea name="opinion" rows="4" placeholder="اكتب رأيك هنا"></textarea>
+
+        <!-- Bouton d'envoi -->
+        <br><br>
+        <input type="submit" value="إرسال">
+    </form>
+</section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 النظام الشمسي</p>
+    </footer>
+</body>
+</html>
+
